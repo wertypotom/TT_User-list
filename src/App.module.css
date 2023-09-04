@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+
+  width: 100%;
+}
+
+.filters {
+  width: 30%;
+  padding: 15px 20px;
+}
+
+.user-table {
+  width: 60%;
+}

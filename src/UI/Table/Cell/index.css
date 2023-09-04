@@ -1,0 +1,12 @@
+.cell-container {
+  width: 100px;
+  text-align: right;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+td:first-child {
+  width: 40px;
+}

@@ -1,0 +1,18 @@
+:root {
+  --accent-color-primary: #595959;
+  --accent-color-primary-hover: #616161;
+  --accent-color-primary-LIGHT: #cdcece;
+  --accent-color-primary-hover-LIGHT: #c4c4c4;
+  --accent-color-secondary: #217346;
+  --dark-color: #313131;
+  --light-color: #f3f3f3;
+  --radius: 0.2rem;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

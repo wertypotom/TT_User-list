@@ -1,0 +1,47 @@
+.container {
+  width: 100%;
+  position: relative;
+}
+
+input {
+  font-family: inherit;
+
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+
+  border: 2px solid var(--accent-color-primary);
+  border-radius: var(--radius);
+  outline: none;
+
+  color: inherit;
+  background-color: transparent;
+
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  transition: border-color 0.15s ease-in-out;
+}
+
+input.light {
+  border: 2px solid var(--accent-color-primary-LIGHT);
+}
+
+input:focus {
+  border: 2px solid var(--accent-color-secondary);
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  display: none;
+}
+
+.incrementAndDecrementBtnsConrainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  height: calc(2.25rem + 2px);
+}
+
+.btnsDevider {
+  border-left: 1px solid var(--accent-color-primary-hover);
+}

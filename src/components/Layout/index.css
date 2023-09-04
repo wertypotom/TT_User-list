@@ -1,0 +1,11 @@
+.layout {
+  background: var(--dark-color);
+
+  color: rgb(206, 206, 206);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.layout.light {
+  background: var(--light-color);
+  color: black;
+}

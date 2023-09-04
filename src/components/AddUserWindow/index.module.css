@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  gap: 15px;
+  height: 500px;
+  border: 1px solid var(--accent-color-primary);
+  position: relative;
+  border-radius: var(--radius);
+  padding: 10px;
+}
+
+.container.light {
+  border: 1px solid var(--accent-color-primary-LIGHT);
+}
+
+.label {
+  position: absolute;
+  top: -16px;
+  left: 5px;
+  padding: 0.4rem;
+  background-color: var(--dark-color);
+  font-size: 13px;
+}
+
+.light .label {
+  background-color: var(--light-color);
+}
+
+.devision-line {
+  align-self: center;
+  border: 1px solid var(--accent-color-primary);
+  width: 80%;
+}
+
+.light .devision-line {
+  border: 1px solid var(--accent-color-primary-LIGHT);
+}

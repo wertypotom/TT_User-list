@@ -1,0 +1,48 @@
+.container {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+select {
+  color: inherit;
+  font-family: inherit;
+
+  padding-left: 0.75rem;
+  border: 2px solid var(--accent-color-primary);
+  border-radius: var(--radius);
+
+  background: transparent;
+  outline: none;
+
+  width: 100%;
+  height: calc(2.25rem + 2px);
+
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+select.light {
+  border: 2px solid var(--accent-color-primary-LIGHT);
+}
+
+select option {
+  color: inherit;
+  background-color: var(--accent-color-primary);
+}
+
+select.light option {
+  color: inherit;
+  background-color: var(--accent-color-primary-hover-LIGHT);
+}
+
+.customArrow {
+  position: absolute;
+  z-index: -1;
+
+  display: flex;
+  height: calc(2.25rem + 2px);
+  right: 0;
+  top: 0;
+}

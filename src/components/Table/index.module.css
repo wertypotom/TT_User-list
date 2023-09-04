@@ -1,0 +1,16 @@
+.container {
+  border: 1px solid var(--accent-color-primary);
+
+  width: 70%;
+  padding: 5px;
+  margin: 15px 20px 15px 0px;
+}
+
+.container.light {
+  border: 1px solid var(--accent-color-primary-LIGHT);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
