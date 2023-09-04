@@ -1,4 +1,3 @@
-import React from 'react';
 import { Cell } from '../Cell';
 import './index.css';
 import cn from 'classnames';
@@ -27,6 +26,10 @@ export const Row = <T extends object>({
     onRowClick(data);
   };
 
+  const getDataValue = <T,>(data: T, key: keyof T): string | number => {
+    return data[key] as string | number;
+  };
+
   return (
     <tr
       onClick={handleRowClick}
@@ -46,7 +49,7 @@ export const Row = <T extends object>({
           <Cell
             {...rest}
             key={value}
-            value={data[value as keyof typeof data]}
+            value={getDataValue<T>(data, value as keyof T)}
           />
         );
       })}

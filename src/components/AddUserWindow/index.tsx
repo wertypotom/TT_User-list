@@ -1,4 +1,3 @@
-import React from 'react';
 import { useUser } from '@/hooks/useUser';
 import styles from './index.module.css';
 import { Button, Input, Select, Checkbox, Switch } from '@/UI';
